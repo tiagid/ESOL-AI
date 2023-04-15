@@ -24,8 +24,8 @@ We built on the data generation process from [self-instruct](https://github.com/
 - We used `gpt-3.5-turbo` to generate the instruction data instead of `davinci`
 - We used Stanford's Alpaca method to write a new prompt and to generate instructions with [prompt.txt](u).
 
-This produced an instruction-following dataset with 52K examples which was obtained at a much lower cost than Stanford's Alpaca (less than $300) based off our seeds .
-[esolai_seeds.json](u), in which the instructions were based on the curriculum that ESL students levels 1-5 must learn, which is based around the verbs of:
+This produced an instruction-following dataset with 52K examples which was obtained at a much lower cost than Stanford's Alpaca (less than $300) based off our seeds
+([esolai_seeds.json](u)), in which the instructions were based on the curriculum that ESL students levels 1-5 must learn, which is based around the verbs of:
 For the seeds, the root verb of the instructions are:
 
 - Match
